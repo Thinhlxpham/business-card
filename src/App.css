@@ -1,0 +1,104 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.all-project-file {
+  background-color: #23252c;
+  color: white;
+  padding: 20px 10px;
+}
+.project-list {
+  margin: 0 auto;
+  max-width: 400px;
+  border: 1px solid #d1d5db;
+}
+
+/* Header Page */
+.my-profile-logo {
+  height: 317px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 10px;
+}
+.name-title-card {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+.position-card {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  color: #f3bf99;
+  margin: 0 auto;
+}
+.portforlio-website {
+  color: white;
+  text-decoration: none;
+}
+.email-info {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-info-item {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Body Page */
+.main-body-description {
+  margin: 0 auto;
+  max-width: 350px;
+  padding-top: 50px;
+}
+h3 {
+  font-size: 25px;
+  font-family: "Inter";
+  margin: 0 auto;
+}
+.info-description {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+/* Footer */
+footer {
+  max-width: 400px;
+  background-color: #161619;
+  border-radius: 10px;
+}
+.footer-info {
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.instagram-profile,
+.linkedIn-profile,
+.github-profile {
+  font-size: 30px;
+  color: white;
+}
